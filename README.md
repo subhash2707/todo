@@ -1,3 +1,3 @@
-kaguya's moonlit scroll
+Problem Statement Name: Kaguya's Moonlit Scroll
 <br>
-TO DO LIST
+Problem Statement Type: TO-DO LIST
