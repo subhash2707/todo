@@ -1,14 +1,81 @@
-h1{
-    padding: 10px;
-    
-    background-color: bisque;
-    border: 30px solid;
-    border-color: blueviolet;
-    border: 3px seashell;
-    border-color: rgb(150, 143, 143);
-    background-color: rgb(100, 119, 63);
-    border: 3px dotted;
-    border-color: rgb(226, 43, 49);
+* {
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+body,a {
+    color: white;
+}
+
+h1 {
+    /* padding: 25%; */
     text-align: center;
-    color: purple;
+    font-size: 2.4rem;
+    margin-bottom: 45px;
+}
+
+body {
+    background: url(Screenshot\ \(1626\).png) no-repeat;
+    background-position: center;
+}
+
+nav {
+    /* border: 2px solid rgb(22, 22, 22); */
+    /* box-shadow: 2px; */
+    /* display: flex; */
+}
+
+li {
+    float: left;
+}
+
+a {
+    font-size: 22px;
+    display: block;
+    font-weight: 520;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    text-align: centre;
+}
+
+li a:hover {
+
+    background-color: rgba(189, 166, 166, 0.3);
+}
+
+form {
+    text-align: center;
+}
+
+.new_input {
+    outline: none;
+    padding: 10px 100px 10px 100px;
+    border-radius: 12px;
+    box-sizing: content-box;
+    font-size: 1.2rem;
+    width: 270px;
+}
+
+.centre_input {
+    padding: 12%;
+}
+
+form h2 {
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin: 8px;
+    margin-left: 280px;
+}
+
+.sub_button {
+    
 }

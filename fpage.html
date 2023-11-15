@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
+    <link rel="stylesheet" href="fpage.css">
 </head>
+
 <body>
+
     <header>
-        <a href="fpage.html">Home</a>
-        <a href="about.html">About</a>
+    <nav>
+        <ul>
+            <li id="homelink"><a href="fpage.html">Home</a></li>
+            <li id="aboutlink"><a href="about.html">About</a></li>
+        </ul>
+        
+        
+    </nav>
     </header>
+    <div class="centre_input">
+    <h1>To Do List</h1>
+    <form id="new task">
+        <div class="title">
+        <h2>Title</h2>
+        <input type="text" class="new_input" placeholder="Add a new task...">
+    </div>
+    <br>
+    <div class="input">
+        <h2>Description</h2>
+    
+        <input type="text" class="new_input" placeholder="Add a new task...">
+    </div>
+        <input type="submit" class="sub_button" value="Add task">
+    </form>
+</div>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <div class="actions"> 
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </div>
+            </div>
+           
+        </section>
+    </main>
 </body>
+
 </html>
