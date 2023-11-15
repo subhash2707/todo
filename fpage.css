@@ -2,6 +2,8 @@ h1{
     padding: 10px;
     
     background-color: bisque;
+    border: 30px solid;
+    border-color: blueviolet;
     border: 3px seashell;
     border-color: rgb(150, 143, 143);
     background-color: rgb(100, 119, 63);
