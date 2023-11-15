@@ -2,8 +2,8 @@ h1{
     padding: 10px;
     
     background-color: bisque;
-    border: 3px dotted;
-    border-color: rgb(226, 43, 49);
+    border: 3px seashell;
+    border-color: rgb(150, 143, 143);
     text-align: center;
     color: purple;
 }
