@@ -4,6 +4,9 @@ h1{
     background-color: bisque;
     border: 3px seashell;
     border-color: rgb(150, 143, 143);
+    background-color: rgb(100, 119, 63);
+    border: 3px dotted;
+    border-color: rgb(226, 43, 49);
     text-align: center;
     color: purple;
 }
